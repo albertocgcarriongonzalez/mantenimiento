@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mantenimiento';
+  Nombre_Sitio = 'Heladería Xtasis Tropical';
 }

@@ -1,1 +1,34 @@
 /* You can add global styles to this file, and also import other style files */
+
+$color-primario: #3e8ac8;
+$color-secundario: #ff7b6e;
+$color-terciario: #fef57c;
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+    //background-image: linear-gradient(to top, rgba(191, 116, 116, 0), rgba(97, 83, 83, 0.71));
+    background-attachment: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 85%;
+    //margin: 0;
+    padding-bottom: 35em;
+    position: relative;
+    top: 3rem;
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      //background-image: linear-gradient(180deg, $color-primario, transparent);
+      //background-image: url('assets/jpg/mantenimiento-web.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
